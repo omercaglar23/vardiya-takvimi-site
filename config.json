@@ -22,29 +22,30 @@
       "button": { "tr": "", "en": "", "de": "" }
     }
   },
-  "announcement": {
-    "id": "ornek-1",
-    "active": false,
-    "platforms": ["android", "ios"],
-    "start": "",
-    "end": "",
-    "title": {
-      "tr": "Örnek duyuru",
-      "en": "Sample announcement",
-      "de": "Beispielankündigung"
-    },
-    "body": {
-      "tr": "Bu bir örnek duyurudur.",
-      "en": "This is a sample announcement.",
-      "de": "Dies ist eine Beispielankündigung."
-    },
-    "button": {
-      "tr": "Aç",
-      "en": "Open",
-      "de": "Öffnen"
-    },
-    "url": ""
-  },
+  "announcements": [
+    {
+      "id": "ornek-1",
+      "active": false,
+      "style": "dialog",
+      "repeat": "once",
+      "platforms": ["android", "ios"],
+      "languages": [],
+      "start": "",
+      "end": "",
+      "title": {
+        "tr": "Örnek duyuru",
+        "en": "Sample announcement",
+        "de": "Beispielankündigung"
+      },
+      "body": {
+        "tr": "Bu bir örnek duyurudur.",
+        "en": "This is a sample announcement.",
+        "de": "Dies ist eine Beispielankündigung."
+      },
+      "button": { "tr": "", "en": "", "de": "" },
+      "url": ""
+    }
+  ],
   "links": {
     "privacy": "https://omercaglar23.github.io/vardiya-takvimi-site/privacy.html"
   }
