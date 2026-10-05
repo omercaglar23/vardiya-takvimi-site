@@ -1,1 +1,41 @@
-"test": "merhaba"
+{
+  "schema": 1,
+  "update": {
+    "android": {
+      "latest": "1.0.0",
+      "min": "1.0.0",
+      "url": ""
+    },
+    "ios": {
+      "latest": "1.0.0",
+      "min": "1.0.0",
+      "url": ""
+    }
+  },
+  "announcement": {
+    "id": "ornek-1",
+    "active": false,
+    "platforms": ["android", "ios"],
+    "start": "",
+    "end": "",
+    "title": {
+      "tr": "Örnek duyuru",
+      "en": "Sample announcement",
+      "de": "Beispielankündigung"
+    },
+    "body": {
+      "tr": "Bu bir örnek duyurudur.",
+      "en": "This is a sample announcement.",
+      "de": "Dies ist eine Beispielankündigung."
+    },
+    "button": {
+      "tr": "Aç",
+      "en": "Open",
+      "de": "Öffnen"
+    },
+    "url": ""
+  },
+  "links": {
+    "privacy": "https://omercaglar23.github.io/vardiya-takvimi-site/privacy.html"
+  }
+}
