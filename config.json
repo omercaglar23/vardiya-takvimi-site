@@ -2,14 +2,24 @@
   "schema": 1,
   "update": {
     "android": {
-      "latest": "1.0.0",
-      "min": "1.0.0",
-      "url": ""
+      "mode": "off",
+      "version": "",
+      "remind": 3,
+      "url": "",
+      "backup_button": false,
+      "title": { "tr": "", "en": "", "de": "" },
+      "body": { "tr": "", "en": "", "de": "" },
+      "button": { "tr": "", "en": "", "de": "" }
     },
     "ios": {
-      "latest": "1.0.0",
-      "min": "1.0.0",
-      "url": ""
+      "mode": "off",
+      "version": "",
+      "remind": 3,
+      "url": "",
+      "backup_button": false,
+      "title": { "tr": "", "en": "", "de": "" },
+      "body": { "tr": "", "en": "", "de": "" },
+      "button": { "tr": "", "en": "", "de": "" }
     }
   },
   "announcement": {
