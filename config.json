@@ -1,7 +1,11 @@
 {
   "schema": 1,
-  "revision": 3,
+  "revision": 4,
   "dev": { "pin_hash": "934d8c78995f8f76388cb3d085d440f6ca050c645faa82498c28264c39126183" },
+  "features": {
+    "weather": { "mode": "on", "message": { "tr": "", "en": "", "de": "" } },
+    "holidays_online": { "mode": "on", "message": { "tr": "", "en": "", "de": "" } }
+  },
   "update": {
     "android": {
       "mode": "off",
