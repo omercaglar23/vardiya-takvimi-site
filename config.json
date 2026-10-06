@@ -3,11 +3,11 @@
   "update": {
     "android": {
       "mode": "off",
-      "version": "9.9",
+      "version": "",
       "remind": 3,
       "url": "",
-      "backup_button": true,
-      "title": { "tr": "Test zorunlu güncelleme", "en": "", "de": "" },
+      "backup_button": false,
+      "title": { "tr": "", "en": "", "de": "" },
       "body": { "tr": "", "en": "", "de": "" },
       "button": { "tr": "", "en": "", "de": "" }
     },
@@ -24,9 +24,9 @@
   },
   "announcements": [
     {
-      "id": "ornek-2",
-      "active": true,
-      "style": "banner",
+      "id": "ornek-1",
+      "active": false,
+      "style": "dialog",
       "repeat": "once",
       "platforms": ["android", "ios"],
       "languages": [],
@@ -42,8 +42,8 @@
         "en": "This is a sample announcement.",
         "de": "Dies ist eine Beispielankündigung."
       },
-      "button": { "tr": "Siteye git", "en": "", "de": "" },
-      "url": "https://omercaglar23.github.io/vardiya-takvimi-site/privacy.html"
+      "button": { "tr": "", "en": "", "de": "" },
+      "url": ""
     }
   ],
   "links": {
