@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "revision": 13,
+  "revision": 14,
   "dev": { "pin_hash": "934d8c78995f8f76388cb3d085d440f6ca050c645faa82498c28264c39126183" },
   "features": {
     "weather": { "mode": "on", "message": { "tr": "", "en": "", "de": "" } },
@@ -18,6 +18,15 @@
     "interstitial": { "enabled": true, "threshold": 4, "cooldown_min": 5, "session_grace_sec": 60, "daily_cap": 3, "new_user_hours": 48 },
     "rewarded": { "enabled": true, "ad_free_hours": 6 },
     "ios": {}
+  },
+  "rating": {
+    "enabled": true,
+    "triggers": ["weather_exit"],
+    "min_days": 0,
+    "min_active_days": 1,
+    "min_screen_sec": 3,
+    "repeat_days": 120,
+    "max_prompts": 3
   },
   "update": {
     "android": {
