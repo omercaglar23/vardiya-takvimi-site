@@ -2,7 +2,7 @@
   "schema": 1,
   "update": {
     "android": {
-      "mode": "forced",
+      "mode": "off",
       "version": "9.9",
       "remind": 3,
       "url": "",
