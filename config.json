@@ -2,8 +2,8 @@
   "schema": 1,
   "update": {
     "android": {
-      "mode": "off",
-      "version": "",
+      "mode": "optional",
+      "version": "9.9",
       "remind": 3,
       "url": "",
       "backup_button": false,
