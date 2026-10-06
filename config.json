@@ -24,9 +24,9 @@
   },
   "announcements": [
     {
-      "id": "ornek-1",
+      "id": "ornek-2",
       "active": true,
-      "style": "dialog",
+      "style": "banner",
       "repeat": "once",
       "platforms": ["android", "ios"],
       "languages": [],
@@ -42,8 +42,8 @@
         "en": "This is a sample announcement.",
         "de": "Dies ist eine Beispielankündigung."
       },
-      "button": { "tr": "", "en": "", "de": "" },
-      "url": ""
+      "button": { "tr": "Siteye git", "en": "", "de": "" },
+      "url": "https://omercaglar23.github.io/vardiya-takvimi-site/privacy.html"
     }
   ],
   "links": {
