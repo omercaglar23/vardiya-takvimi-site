@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "revision": 14,
+  "revision": 15,
   "dev": { "pin_hash": "934d8c78995f8f76388cb3d085d440f6ca050c645faa82498c28264c39126183" },
   "features": {
     "weather": { "mode": "on", "message": { "tr": "", "en": "", "de": "" } },
@@ -20,11 +20,11 @@
     "ios": {}
   },
   "rating": {
-    "enabled": true,
+    "enabled": false,
     "triggers": ["weather_exit"],
-    "min_days": 0,
-    "min_active_days": 1,
-    "min_screen_sec": 3,
+    "min_days": 7,
+    "min_active_days": 5,
+    "min_screen_sec": 8,
     "repeat_days": 120,
     "max_prompts": 3
   },
