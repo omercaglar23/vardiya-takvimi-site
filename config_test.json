@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "revision": 6,
+  "revision": 7,
   "dev": { "pin_hash": "934d8c78995f8f76388cb3d085d440f6ca050c645faa82498c28264c39126183" },
   "update": {
     "android": {
@@ -50,10 +50,10 @@
   ],
   "links": {
     "privacy": "https://omercaglar23.github.io/vardiya-takvimi-site/privacy.html",
-    "contact_email": "test@example.com",
-    "contact_telegram": "telegram",
-    "website": "https://omercaglar23.github.io/vardiya-takvimi-site/",
-    "feedback": "https://omercaglar23.github.io/vardiya-takvimi-site/privacy.html",
+    "contact_email": "",
+    "contact_telegram": "",
+    "website": "",
+    "feedback": "",
     "store_android": "",
     "store_ios": ""
   }
