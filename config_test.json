@@ -1,22 +1,22 @@
 {
   "schema": 1,
-  "revision": 12,
+  "revision": 13,
   "dev": { "pin_hash": "934d8c78995f8f76388cb3d085d440f6ca050c645faa82498c28264c39126183" },
   "features": {
     "weather": { "mode": "on", "message": { "tr": "", "en": "", "de": "" } },
     "holidays_online": { "mode": "on", "message": { "tr": "", "en": "", "de": "" } }
   },
   "ads": {
-    "enabled": false,
-    "banner": false,
+    "enabled": true,
+    "banner": true,
     "native": {
-      "home": { "enabled": true, "after": 1 },
-      "notes": { "enabled": true, "first": 1, "every": 3, "max": 3 },
+      "home": { "enabled": false, "after": 1 },
+      "notes": { "enabled": true, "first": 2, "every": 8, "max": 3 },
       "holidays": { "enabled": true, "first": 4, "every": 8, "max": 2 },
       "weather": { "enabled": true }
     },
     "interstitial": { "enabled": true, "threshold": 4, "cooldown_min": 5, "session_grace_sec": 60, "daily_cap": 3, "new_user_hours": 48 },
-    "rewarded": { "enabled": true, "ad_free_hours": 2 },
+    "rewarded": { "enabled": true, "ad_free_hours": 6 },
     "ios": {}
   },
   "update": {
