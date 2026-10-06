@@ -2,12 +2,12 @@
   "schema": 1,
   "update": {
     "android": {
-      "mode": "optional",
+      "mode": "forced",
       "version": "9.9",
       "remind": 3,
       "url": "",
-      "backup_button": false,
-      "title": { "tr": "", "en": "", "de": "" },
+      "backup_button": true,
+      "title": { "tr": "Test zorunlu güncelleme", "en": "", "de": "" },
       "body": { "tr": "", "en": "", "de": "" },
       "button": { "tr": "", "en": "", "de": "" }
     },
