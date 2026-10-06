@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "revision": 3,
+  "revision": 4,
   "dev": { "pin_hash": "934d8c78995f8f76388cb3d085d440f6ca050c645faa82498c28264c39126183" },
   "update": {
     "android": {
-      "mode": "forced",
-      "version": "9.9",
+      "mode": "off",
+      "version": "",
       "remind": 3,
       "url": "",
       "backup_button": false,
