@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "revision": 22,
+  "revision": 23,
   "dev": {
     "pin_hash": "934d8c78995f8f76388cb3d085d440f6ca050c645faa82498c28264c39126183"
   },
@@ -24,10 +24,10 @@
   },
   "ads": {
     "enabled": true,
-    "banner": true,
+    "banner": false,
     "native": {
       "home": {
-        "enabled": false,
+        "enabled": true,
         "after": 1
       },
       "notes": {
@@ -73,18 +73,18 @@
   },
   "update": {
     "android": {
-      "mode": "optional",
+      "mode": "off",
       "version": "",
       "remind": 3,
       "url": "",
       "backup_button": false,
       "title": {
-        "tr": "d",
+        "tr": "",
         "en": "",
         "de": ""
       },
       "body": {
-        "tr": "tgyuyhh",
+        "tr": "",
         "en": "",
         "de": ""
       },
