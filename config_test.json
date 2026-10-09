@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "revision": 19,
+  "revision": 20,
   "dev": {
     "pin_hash": "934d8c78995f8f76388cb3d085d440f6ca050c645faa82498c28264c39126183"
   },
@@ -122,7 +122,7 @@
       "id": "ornek-1",
       "active": true,
       "style": "banner",
-      "audience": "free",
+      "audience": "all",
       "repeat": "every_launch",
       "platforms": [
         "android",
