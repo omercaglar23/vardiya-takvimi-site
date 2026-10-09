@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "revision": 20,
+  "revision": 21,
   "dev": {
     "pin_hash": "934d8c78995f8f76388cb3d085d440f6ca050c645faa82498c28264c39126183"
   },
@@ -120,7 +120,7 @@
   "announcements": [
     {
       "id": "ornek-1",
-      "active": true,
+      "active": false,
       "style": "banner",
       "audience": "all",
       "repeat": "every_launch",
