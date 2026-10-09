@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "revision": 24,
+  "revision": 25,
   "dev": {
     "pin_hash": "17105ef53196ebc435c03cccaf085b3e307053ec108ce6cfc1763f81fe68890a"
   },
@@ -24,10 +24,10 @@
   },
   "ads": {
     "enabled": true,
-    "banner": false,
+    "banner": true,
     "native": {
       "home": {
-        "enabled": true,
+        "enabled": false,
         "after": 1
       },
       "notes": {
