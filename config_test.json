@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "revision": 15,
+  "revision": 16,
   "dev": { "pin_hash": "934d8c78995f8f76388cb3d085d440f6ca050c645faa82498c28264c39126183" },
   "features": {
     "weather": { "mode": "on", "message": { "tr": "", "en": "", "de": "" } },
@@ -76,8 +76,8 @@
   ],
   "links": {
     "privacy": "https://omercaglar23.github.io/vardiya-takvimi-site/privacy.html",
-    "contact_email": "",
-    "contact_telegram": "",
+    "contact_email": "tinywonders.yt@gmail.com",
+    "contact_telegram": "VardiyaTakvimiDestekBot",
     "website": "",
     "feedback": "",
     "store_android": "",
