@@ -1,27 +1,70 @@
 {
   "schema": 1,
-  "revision": 7,
-  "dev": { "pin_hash": "934d8c78995f8f76388cb3d085d440f6ca050c645faa82498c28264c39126183" },
+  "revision": 8,
+  "dev": {
+    "pin_hash": "934d8c78995f8f76388cb3d085d440f6ca050c645faa82498c28264c39126183"
+  },
   "features": {
-    "weather": { "mode": "on", "message": { "tr": "", "en": "", "de": "" } },
-    "holidays_online": { "mode": "on", "message": { "tr": "", "en": "", "de": "" } }
+    "weather": {
+      "mode": "on",
+      "message": {
+        "tr": "",
+        "en": "",
+        "de": ""
+      }
+    },
+    "holidays_online": {
+      "mode": "on",
+      "message": {
+        "tr": "",
+        "en": "",
+        "de": ""
+      }
+    }
   },
   "ads": {
     "enabled": true,
     "banner": true,
     "native": {
-      "home": { "enabled": false, "after": 1 },
-      "notes": { "enabled": true, "first": 2, "every": 8, "max": 3 },
-      "holidays": { "enabled": true, "first": 4, "every": 8, "max": 2 },
-      "weather": { "enabled": true }
+      "home": {
+        "enabled": false,
+        "after": 1
+      },
+      "notes": {
+        "enabled": true,
+        "first": 2,
+        "every": 8,
+        "max": 3
+      },
+      "holidays": {
+        "enabled": true,
+        "first": 4,
+        "every": 8,
+        "max": 2
+      },
+      "weather": {
+        "enabled": true
+      }
     },
-    "interstitial": { "enabled": true, "threshold": 4, "cooldown_min": 5, "session_grace_sec": 60, "daily_cap": 3, "new_user_hours": 48 },
-    "rewarded": { "enabled": true, "ad_free_hours": 6 },
+    "interstitial": {
+      "enabled": true,
+      "threshold": 4,
+      "cooldown_min": 5,
+      "session_grace_sec": 60,
+      "daily_cap": 3,
+      "new_user_hours": 48
+    },
+    "rewarded": {
+      "enabled": true,
+      "ad_free_hours": 6
+    },
     "ios": {}
   },
   "rating": {
     "enabled": false,
-    "triggers": ["weather_exit"],
+    "triggers": [
+      "weather_exit"
+    ],
     "min_days": 7,
     "min_active_days": 5,
     "min_screen_sec": 8,
@@ -35,9 +78,21 @@
       "remind": 3,
       "url": "",
       "backup_button": false,
-      "title": { "tr": "", "en": "", "de": "" },
-      "body": { "tr": "", "en": "", "de": "" },
-      "button": { "tr": "", "en": "", "de": "" }
+      "title": {
+        "tr": "",
+        "en": "",
+        "de": ""
+      },
+      "body": {
+        "tr": "",
+        "en": "",
+        "de": ""
+      },
+      "button": {
+        "tr": "",
+        "en": "",
+        "de": ""
+      }
     },
     "ios": {
       "mode": "off",
@@ -45,21 +100,41 @@
       "remind": 3,
       "url": "",
       "backup_button": false,
-      "title": { "tr": "", "en": "", "de": "" },
-      "body": { "tr": "", "en": "", "de": "" },
-      "button": { "tr": "", "en": "", "de": "" }
+      "title": {
+        "tr": "",
+        "en": "",
+        "de": ""
+      },
+      "body": {
+        "tr": "",
+        "en": "",
+        "de": ""
+      },
+      "button": {
+        "tr": "",
+        "en": "",
+        "de": ""
+      }
     }
   },
   "announcements": [
     {
       "id": "ornek-1",
       "active": false,
-      "style": "dialog",
-      "repeat": "once",
-      "platforms": ["android", "ios"],
-      "languages": [],
-      "start": "",
-      "end": "",
+      "style": "banner",
+      "audience": "all",
+      "repeat": "every_launch",
+      "platforms": [
+        "android",
+        "ios"
+      ],
+      "languages": [
+        "tr",
+        "en",
+        "de"
+      ],
+      "start": "2026-10-08",
+      "end": "2026-10-22",
       "title": {
         "tr": "Örnek duyuru",
         "en": "Sample announcement",
@@ -70,7 +145,11 @@
         "en": "This is a sample announcement.",
         "de": "Dies ist eine Beispielankündigung."
       },
-      "button": { "tr": "", "en": "", "de": "" },
+      "button": {
+        "tr": "",
+        "en": "",
+        "de": ""
+      },
       "url": ""
     }
   ],
