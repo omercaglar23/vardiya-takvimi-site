@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "revision": 21,
+  "revision": 22,
   "dev": {
     "pin_hash": "934d8c78995f8f76388cb3d085d440f6ca050c645faa82498c28264c39126183"
   },
@@ -73,18 +73,18 @@
   },
   "update": {
     "android": {
-      "mode": "off",
+      "mode": "optional",
       "version": "",
       "remind": 3,
       "url": "",
       "backup_button": false,
       "title": {
-        "tr": "",
+        "tr": "d",
         "en": "",
         "de": ""
       },
       "body": {
-        "tr": "",
+        "tr": "tgyuyhh",
         "en": "",
         "de": ""
       },
