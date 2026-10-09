@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "revision": 16,
+  "revision": 17,
   "dev": { "pin_hash": "934d8c78995f8f76388cb3d085d440f6ca050c645faa82498c28264c39126183" },
   "features": {
     "weather": { "mode": "on", "message": { "tr": "", "en": "", "de": "" } },
@@ -51,6 +51,24 @@
     }
   },
   "announcements": [
+    {
+      "id": "a1-test-premium",
+      "active": true,
+      "style": "banner",
+      "audience": "premium",
+      "repeat": "every_launch",
+      "title": { "tr": "TEST: Premium", "en": "TEST: Premium", "de": "TEST: Premium" },
+      "body": { "tr": "Bu şeridi yalnızca Premium kullanıcılar görür.", "en": "Only Premium users see this banner.", "de": "Nur Premium-Nutzer sehen dieses Banner." }
+    },
+    {
+      "id": "a1-test-free",
+      "active": true,
+      "style": "banner",
+      "audience": "free",
+      "repeat": "every_launch",
+      "title": { "tr": "TEST: Ücretsiz", "en": "TEST: Free", "de": "TEST: Kostenlos" },
+      "body": { "tr": "Bu şeridi yalnızca ücretsiz kullanıcılar görür.", "en": "Only free users see this banner.", "de": "Nur kostenlose Nutzer sehen dieses Banner." }
+    },
     {
       "id": "ornek-1",
       "active": false,
