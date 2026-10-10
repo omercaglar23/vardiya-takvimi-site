@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "revision": 33,
+  "revision": 34,
   "dev": {
     "pin_hash": "17105ef53196ebc435c03cccaf085b3e307053ec108ce6cfc1763f81fe68890a"
   },
   "features": {
     "weather": {
-      "mode": "off",
+      "mode": "on",
       "message": {
         "tr": "",
         "en": "",
@@ -14,7 +14,7 @@
       }
     },
     "holidays_online": {
-      "mode": "off",
+      "mode": "on",
       "message": {
         "tr": "",
         "en": "",
