@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "revision": 29,
+  "revision": 30,
   "dev": {
     "pin_hash": "17105ef53196ebc435c03cccaf085b3e307053ec108ce6cfc1763f81fe68890a"
   },
   "features": {
     "weather": {
-      "mode": "maintenance",
+      "mode": "on",
       "message": {
         "tr": "",
         "en": "",
@@ -117,42 +117,7 @@
       }
     }
   },
-  "announcements": [
-    {
-      "id": "ornek-1",
-      "active": false,
-      "style": "banner",
-      "audience": "all",
-      "repeat": "every_launch",
-      "platforms": [
-        "android",
-        "ios"
-      ],
-      "languages": [
-        "tr",
-        "en",
-        "de"
-      ],
-      "start": "2026-10-08",
-      "end": "2026-10-22",
-      "title": {
-        "tr": "Örnek duyuru",
-        "en": "Sample announcement",
-        "de": "Beispielankündigung"
-      },
-      "body": {
-        "tr": "Bu bir örnek duyurudur.",
-        "en": "This is a sample announcement.",
-        "de": "Dies ist eine Beispielankündigung."
-      },
-      "button": {
-        "tr": "",
-        "en": "",
-        "de": ""
-      },
-      "url": ""
-    }
-  ],
+  "announcements": [],
   "links": {
     "privacy": "https://omercaglar23.github.io/vardiya-takvimi-site/privacy.html",
     "contact_email": "tinywonders.yt@gmail.com",
