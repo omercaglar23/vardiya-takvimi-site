@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "revision": 26,
+  "revision": 27,
   "dev": {
     "pin_hash": "934d8c78995f8f76388cb3d085d440f6ca050c645faa82498c28264c39126183"
   },
@@ -121,7 +121,7 @@
     {
       "id": "2026-10-10-3",
       "active": true,
-      "style": "dialog",
+      "style": "banner",
       "audience": "all",
       "repeat": "once",
       "platforms": [],
@@ -148,7 +148,7 @@
     {
       "id": "2026-10-10-2",
       "active": true,
-      "style": "dialog",
+      "style": "banner",
       "audience": "all",
       "repeat": "once",
       "platforms": [],
