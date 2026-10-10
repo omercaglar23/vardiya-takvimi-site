@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "revision": 35,
+  "revision": 36,
   "dev": {
     "pin_hash": "17105ef53196ebc435c03cccaf085b3e307053ec108ce6cfc1763f81fe68890a"
   },
   "features": {
     "weather": {
-      "mode": "maintenance",
+      "mode": "on",
       "message": {
         "tr": "",
         "en": "",
@@ -23,7 +23,7 @@
     }
   },
   "ads": {
-    "enabled": false,
+    "enabled": true,
     "banner": true,
     "native": {
       "home": {
@@ -65,7 +65,7 @@
     "triggers": [
       "weather_exit"
     ],
-    "min_days": 6,
+    "min_days": 7,
     "min_active_days": 5,
     "min_screen_sec": 8,
     "repeat_days": 120,
@@ -117,66 +117,11 @@
       }
     }
   },
-  "announcements": [
-    {
-      "id": "2026-10-10-2",
-      "active": true,
-      "style": "dialog",
-      "audience": "all",
-      "repeat": "once",
-      "platforms": [],
-      "languages": [],
-      "start": "",
-      "end": "",
-      "title": {
-        "tr": "",
-        "en": "",
-        "de": ""
-      },
-      "body": {
-        "tr": "fre",
-        "en": "",
-        "de": ""
-      },
-      "button": {
-        "tr": "",
-        "en": "",
-        "de": ""
-      },
-      "url": ""
-    },
-    {
-      "id": "2026-10-10-1",
-      "active": true,
-      "style": "dialog",
-      "audience": "all",
-      "repeat": "once",
-      "platforms": [],
-      "languages": [],
-      "start": "",
-      "end": "",
-      "title": {
-        "tr": "",
-        "en": "",
-        "de": ""
-      },
-      "body": {
-        "tr": "cf",
-        "en": "",
-        "de": ""
-      },
-      "button": {
-        "tr": "",
-        "en": "",
-        "de": ""
-      },
-      "url": ""
-    }
-  ],
+  "announcements": [],
   "links": {
     "privacy": "https://omercaglar23.github.io/vardiya-takvimi-site/privacy.html",
-    "contact_email": "tinywonders.yt@gmail.comf",
-    "contact_telegram": "VardiyaTakvimiDestekBottt",
+    "contact_email": "tinywonders.yt@gmail.com",
+    "contact_telegram": "VardiyaTakvimiDestekBot",
     "website": "",
     "feedback": "",
     "store_android": "",
