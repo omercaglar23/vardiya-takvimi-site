@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "revision": 28,
+  "revision": 29,
   "dev": {
     "pin_hash": "17105ef53196ebc435c03cccaf085b3e307053ec108ce6cfc1763f81fe68890a"
   },
   "features": {
     "weather": {
-      "mode": "on",
+      "mode": "maintenance",
       "message": {
         "tr": "",
         "en": "",
