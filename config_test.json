@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "revision": 27,
+  "revision": 28,
   "dev": {
-    "pin_hash": "934d8c78995f8f76388cb3d085d440f6ca050c645faa82498c28264c39126183"
+    "pin_hash": "17105ef53196ebc435c03cccaf085b3e307053ec108ce6cfc1763f81fe68890a"
   },
   "features": {
     "weather": {
@@ -118,87 +118,6 @@
     }
   },
   "announcements": [
-    {
-      "id": "2026-10-10-3",
-      "active": true,
-      "style": "banner",
-      "audience": "all",
-      "repeat": "once",
-      "platforms": [],
-      "languages": [],
-      "start": "",
-      "end": "",
-      "title": {
-        "tr": "",
-        "en": "",
-        "de": ""
-      },
-      "body": {
-        "tr": "zd",
-        "en": "",
-        "de": ""
-      },
-      "button": {
-        "tr": "",
-        "en": "",
-        "de": ""
-      },
-      "url": ""
-    },
-    {
-      "id": "2026-10-10-2",
-      "active": true,
-      "style": "banner",
-      "audience": "all",
-      "repeat": "once",
-      "platforms": [],
-      "languages": [],
-      "start": "",
-      "end": "",
-      "title": {
-        "tr": "",
-        "en": "",
-        "de": ""
-      },
-      "body": {
-        "tr": "dd",
-        "en": "",
-        "de": ""
-      },
-      "button": {
-        "tr": "",
-        "en": "",
-        "de": ""
-      },
-      "url": ""
-    },
-    {
-      "id": "2026-10-10-1",
-      "active": true,
-      "style": "dialog",
-      "audience": "all",
-      "repeat": "once",
-      "platforms": [],
-      "languages": [],
-      "start": "",
-      "end": "",
-      "title": {
-        "tr": "xx",
-        "en": "",
-        "de": ""
-      },
-      "body": {
-        "tr": "dd",
-        "en": "",
-        "de": ""
-      },
-      "button": {
-        "tr": "",
-        "en": "",
-        "de": ""
-      },
-      "url": ""
-    },
     {
       "id": "ornek-1",
       "active": false,
