@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "revision": 10,
+  "revision": 11,
   "dev": {
-    "pin_hash": "17105ef53196ebc435c03cccaf085b3e307053ec108ce6cfc1763f81fe68890a"
+    "pin_hash": "f0e26e8b7e30fe595165fe257ed8ec46d9afce2ef71187db2ee565f9b427b320"
   },
   "features": {
     "weather": {
