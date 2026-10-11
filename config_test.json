@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "revision": 45,
+  "revision": 46,
   "dev": {
     "pin_hash": "f0e26e8b7e30fe595165fe257ed8ec46d9afce2ef71187db2ee565f9b427b320"
   },
@@ -123,25 +123,25 @@
       "active": true,
       "style": "banner",
       "audience": "all",
-      "repeat": "every_launch",
+      "repeat": "once",
       "platforms": [],
       "languages": [],
       "start": "",
       "end": "",
       "title": {
         "tr": "Duyuru!",
-        "en": "s",
-        "de": "s"
+        "en": "",
+        "de": ""
       },
       "body": {
         "tr": "Site yayında",
-        "en": "a",
-        "de": "a"
+        "en": "",
+        "de": ""
       },
       "button": {
-        "tr": "Git",
-        "en": "d",
-        "de": "d"
+        "tr": "Siteye Gözat",
+        "en": "",
+        "de": ""
       },
       "url": "https://omercaglar23.github.io/vardiya-takvimi-site/"
     }
@@ -150,7 +150,7 @@
     "privacy": "https://omercaglar23.github.io/vardiya-takvimi-site/privacy.html",
     "contact_email": "tinywonders.yt@gmail.com",
     "contact_telegram": "VardiyaTakvimiDestekBot",
-    "website": "",
+    "website": "https://omercaglar23.github.io/vardiya-takvimi-site/",
     "feedback": "",
     "store_android": "",
     "store_ios": ""
