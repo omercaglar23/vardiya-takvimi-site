@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "revision": 46,
+  "revision": 47,
   "dev": {
     "pin_hash": "f0e26e8b7e30fe595165fe257ed8ec46d9afce2ef71187db2ee565f9b427b320"
   },
@@ -117,35 +117,7 @@
       }
     }
   },
-  "announcements": [
-    {
-      "id": "2026-10-11-1",
-      "active": true,
-      "style": "banner",
-      "audience": "all",
-      "repeat": "once",
-      "platforms": [],
-      "languages": [],
-      "start": "",
-      "end": "",
-      "title": {
-        "tr": "Duyuru!",
-        "en": "",
-        "de": ""
-      },
-      "body": {
-        "tr": "Site yayında",
-        "en": "",
-        "de": ""
-      },
-      "button": {
-        "tr": "Siteye Gözat",
-        "en": "",
-        "de": ""
-      },
-      "url": "https://omercaglar23.github.io/vardiya-takvimi-site/"
-    }
-  ],
+  "announcements": [],
   "links": {
     "privacy": "https://omercaglar23.github.io/vardiya-takvimi-site/privacy.html",
     "contact_email": "tinywonders.yt@gmail.com",
