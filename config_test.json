@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "revision": 41,
+  "revision": 42,
   "dev": {
     "pin_hash": "f0e26e8b7e30fe595165fe257ed8ec46d9afce2ef71187db2ee565f9b427b320"
   },
@@ -130,18 +130,18 @@
       "end": "",
       "title": {
         "tr": "Duyuru!",
-        "en": "",
-        "de": ""
+        "en": "s",
+        "de": "s"
       },
       "body": {
         "tr": "Site yayında",
-        "en": "",
-        "de": ""
+        "en": "a",
+        "de": "a"
       },
       "button": {
         "tr": "Git",
-        "en": "",
-        "de": ""
+        "en": "d",
+        "de": "d"
       },
       "url": "https://omercaglar23.github.io/vardiya-takvimi-site/"
     }
