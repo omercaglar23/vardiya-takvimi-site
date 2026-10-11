@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "revision": 12,
+  "revision": 13,
   "dev": {
     "pin_hash": "f0e26e8b7e30fe595165fe257ed8ec46d9afce2ef71187db2ee565f9b427b320"
   },
@@ -123,7 +123,7 @@
       "active": true,
       "style": "banner",
       "audience": "all",
-      "repeat": "every_launch",
+      "repeat": "once",
       "platforms": [],
       "languages": [],
       "start": "",
@@ -139,7 +139,7 @@
         "de": ""
       },
       "button": {
-        "tr": "Git",
+        "tr": "Siteye Gözat",
         "en": "",
         "de": ""
       },
@@ -150,7 +150,7 @@
     "privacy": "https://omercaglar23.github.io/vardiya-takvimi-site/privacy.html",
     "contact_email": "tinywonders.yt@gmail.com",
     "contact_telegram": "VardiyaTakvimiDestekBot",
-    "website": "",
+    "website": "https://omercaglar23.github.io/vardiya-takvimi-site/",
     "feedback": "",
     "store_android": "",
     "store_ios": ""
