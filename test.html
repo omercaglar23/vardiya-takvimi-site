@@ -64,7 +64,10 @@ h2 { font-size: 21px; margin: 0 0 14px; }
   padding: 11px 18px; border-radius: 12px; font-weight: 600; font-size: 16px;
 }
 .btn:hover { opacity: .9; }
-.step p.alt { grid-column: 2; margin-top: 8px; font-size: 14px; }
+.step p.wait {
+  grid-column: 2; margin-top: 10px; font-size: 14px; color: var(--text);
+  background: var(--amber-soft); border-radius: 10px; padding: 8px 12px;
+}
 .btn svg { width: 18px; height: 18px; }
 
 .box { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; margin-bottom: 28px; }
@@ -111,7 +114,7 @@ footer a { margin: 0 8px; }
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
         Teste katıl ve yükle
       </a>
-      <p class="alt">Google Play'de görünmüyorsa birkaç dakika bekleyip <a href="https://play.google.com/store/apps/details?id=com.omercaglar.vardiyatakvimi" target="_blank" rel="noopener">buradan açın</a>.</p>
+      <p class="wait"><b>Biraz bekleyin:</b> Teste katıldıktan sonra uygulamanın Google Play'de açılması <b>5–10 dakika</b> sürebilir. "Uygulama bulunamadı" ya da "Yükle" yerine başka bir şey görürseniz bir süre sonra <a href="https://play.google.com/store/apps/details?id=com.omercaglar.vardiyatakvimi" target="_blank" rel="noopener">buradan tekrar açın</a>.</p>
     </li>
   </ol>
 
@@ -139,7 +142,7 @@ footer a { margin: 0 8px; }
     </details>
     <details>
       <summary>Google Play'de uygulama çıkmıyor</summary>
-      <p>Katıldıktan sonra Play'in tanıması birkaç dakika sürebilir. İki adımı da aynı Google hesabıyla yaptığınızı kontrol edip biraz sonra tekrar deneyin.</p>
+      <p>Teste katıldıktan sonra Google Play'in sizi tanıması 5–10 dakika sürebilir. İki adımı da aynı Google hesabıyla yaptığınızı kontrol edip biraz sonra tekrar deneyin.</p>
     </details>
     <details>
       <summary>Eski verilerim ne olacak?</summary>
