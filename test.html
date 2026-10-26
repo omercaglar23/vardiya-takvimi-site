@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vardiya Takvimi · Test</title>
+<meta name="description" content="Yeni Vardiya Takvimi'ni yayından önce deneyin, fikrinizi söyleyin.">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<meta property="og:title" content="Yeni Vardiya Takvimi'ni ilk siz deneyin">
+<meta property="og:description" content="Yayından önce deneyin, fikrinizi söyleyin. Test süresince Premium ücretsiz.">
+<meta property="og:image" content="https://omercaglar23.github.io/vardiya-takvimi-site/img/icon.png">
+<style>
+:root {
+  --bg: #f7f8fa; --surface: #ffffff; --text: #1c1c1e; --muted: #5f6470;
+  --line: #e6e7eb; --accent: #7c3aed; --accent-soft: #ede9fe; --amber: #f59e0b;
+  --amber-soft: #fef3c7; --btn-bg: #1c1c1e; --btn-text: #ffffff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121317; --surface: #1c1d22; --text: #ececf0; --muted: #a3a6b0;
+    --line: #2c2e35; --accent: #a78bfa; --accent-soft: #2a2140; --amber: #fbbf24;
+    --amber-soft: #3a2e12; --btn-bg: #ffffff; --btn-text: #121317;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+a { color: var(--accent); }
+.wrap { max-width: 640px; margin: 0 auto; padding: 0 16px; }
+
+.hero { text-align: center; padding: 36px 0 28px; }
+.hero img.icon { width: 96px; height: 96px; border-radius: 22px; box-shadow: 0 8px 24px rgba(15, 23, 42, .15); }
+.hero h1 { font-size: clamp(26px, 6vw, 36px); line-height: 1.2; margin: 18px 0 8px; }
+.hero p { color: var(--muted); margin: 0 auto; max-width: 520px; font-size: 17px; }
+.badge {
+  display: inline-block; margin-top: 16px; background: var(--accent-soft); color: var(--accent);
+  font-weight: 600; font-size: 15px; padding: 6px 14px; border-radius: 999px;
+}
+
+.notice {
+  background: var(--amber-soft); border-radius: 16px; padding: 14px 16px; margin-bottom: 24px;
+  font-size: 15px;
+}
+.notice strong { display: block; margin-bottom: 2px; }
+
+h2 { font-size: 21px; margin: 0 0 14px; }
+.steps { list-style: none; margin: 0 0 28px; padding: 0; display: grid; gap: 12px; }
+.step {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 16px;
+  display: grid; grid-template-columns: 36px 1fr; gap: 4px 12px; align-items: start;
+}
+.num {
+  grid-row: span 3; width: 36px; height: 36px; border-radius: 12px; background: var(--accent);
+  color: #fff; font-weight: 700; display: flex; align-items: center; justify-content: center;
+}
+.step h3 { margin: 4px 0 0; font-size: 17px; }
+.step p { margin: 0; color: var(--muted); font-size: 15px; }
+.btn {
+  justify-self: start; margin-top: 8px; display: inline-flex; align-items: center; gap: 8px;
+  text-decoration: none; background: var(--btn-bg); color: var(--btn-text);
+  padding: 11px 18px; border-radius: 12px; font-weight: 600; font-size: 16px;
+}
+.btn:hover { opacity: .9; }
+.step p.alt { grid-column: 2; margin-top: 8px; font-size: 14px; }
+.btn svg { width: 18px; height: 18px; }
+
+.box { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; margin-bottom: 28px; }
+.box p { margin: 0 0 10px; }
+.box p:last-child { margin-bottom: 0; }
+.box ul { margin: 0 0 10px; padding-left: 20px; }
+
+details { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 12px 16px; margin-bottom: 10px; }
+details summary { cursor: pointer; font-weight: 600; }
+details p { margin: 8px 0 0; color: var(--muted); font-size: 15px; }
+.faq { margin-bottom: 32px; }
+
+footer { border-top: 1px solid var(--line); padding: 20px 0 32px; text-align: center; font-size: 14px; color: var(--muted); }
+footer a { margin: 0 8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <section class="hero">
+    <img class="icon" src="img/icon.png" alt="" width="96" height="96">
+    <h1>Yeni Vardiya Takvimi'ni ilk siz deneyin</h1>
+    <p>Uygulamayı baştan yeniledik. Herkese açılmadan önce sizin gibi gerçek vardiyalı çalışanların denemesini ve fikrini söylemesini istiyoruz.</p>
+    <span class="badge">Test süresince Premium ücretsiz</span>
+  </section>
+
+  <div class="notice">
+    <strong>Eski uygulamayı silmeyin</strong>
+    Yeni uygulama ayrı bir uygulama olarak yüklenir; eski uygulamadaki vardiya ve notlarınız ona taşınmaz. Vardiya düzeninizi yeni uygulamada bir kez kurmanız yeterli (yaklaşık 1 dakika). Eski uygulama telefonunuzda olduğu gibi kalabilir.
+  </div>
+
+  <h2>2 adımda katılın</h2>
+  <ol class="steps">
+    <li class="step">
+      <span class="num">1</span>
+      <h3>Test grubuna katılın</h3>
+      <p>Açılan sayfada <b>"Gruba katıl"</b>a dokunun. Google Play'de kullandığınız Google hesabıyla katılın. Sonra bu sayfaya geri dönün.</p>
+      <a class="btn" href="https://groups.google.com/g/vardiya-takvimi-test" target="_blank" rel="noopener">Gruba katıl</a>
+    </li>
+    <li class="step">
+      <span class="num">2</span>
+      <h3>Teste katılın ve yükleyin</h3>
+      <p>Açılan sayfada <b>"Test kullanıcısı ol"</b>a, ardından aynı sayfadaki <b>"Google Play'den indirin"</b> bağlantısına dokunup uygulamayı yükleyin.</p>
+      <a class="btn" href="https://play.google.com/apps/testing/com.omercaglar.vardiyatakvimi" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+        Teste katıl ve yükle
+      </a>
+      <p class="alt">Google Play'de görünmüyorsa birkaç dakika bekleyip <a href="https://play.google.com/store/apps/details?id=com.omercaglar.vardiyatakvimi" target="_blank" rel="noopener">buradan açın</a>.</p>
+    </li>
+  </ol>
+
+  <h2>Fikrinizi söyleyin</h2>
+  <div class="box">
+    <p>Birkaç gün normal şekilde kullanın: vardiya düzeninizi kurun, alarm ve not ekleyin, istatistiklere bakın. Sonra bize yazın:</p>
+    <ul>
+      <li>Neyi beğendiniz, ne zor geldi?</li>
+      <li>Hata ya da tuhaf bir şey gördünüz mü?</li>
+      <li>Eksik bulduğunuz bir özellik var mı?</li>
+    </ul>
+    <p><a class="btn" href="mailto:tinywonders.yt@gmail.com?subject=Vardiya%20Takvimi%20test%20geri%20bildirimi">E-posta gönder</a></p>
+    <p style="color: var(--muted); font-size: 14px;">Google Play'deki uygulama sayfasından "Geliştiriciye özel geri bildirim" de gönderebilirsiniz. Her mesajı okuyoruz; önerilere göre güncellemeler çıkaracağız.</p>
+  </div>
+
+  <h2>Sık sorulanlar</h2>
+  <div class="faq">
+    <details>
+      <summary>Ücretli mi?</summary>
+      <p>Hayır. Uygulama ücretsiz; test süresince Premium özellikler (reklamsız kullanım, stiller, widget'lar, hava durumu) de ücretsiz açık.</p>
+    </details>
+    <details>
+      <summary>"Gruba katıl" ya da "Test kullanıcısı ol" görünmüyor</summary>
+      <p>Tarayıcıda, telefonda Google Play'de kullandığınız Google hesabıyla oturum açtığınızdan emin olun. Birden çok hesabınız varsa sağ üstten doğru hesabı seçin.</p>
+    </details>
+    <details>
+      <summary>Google Play'de uygulama çıkmıyor</summary>
+      <p>Katıldıktan sonra Play'in tanıması birkaç dakika sürebilir. İki adımı da aynı Google hesabıyla yaptığınızı kontrol edip biraz sonra tekrar deneyin.</p>
+    </details>
+    <details>
+      <summary>Eski verilerim ne olacak?</summary>
+      <p>Eski uygulamada olduğu gibi duruyor. Yeni uygulama ayrı kurulur; vardiya düzeninizi orada yeniden girersiniz.</p>
+    </details>
+    <details>
+      <summary>Testten nasıl çıkarım?</summary>
+      <p>2. adımdaki sayfayı tekrar açıp "Programdan ayrıl"a dokunabilirsiniz. Uygulamayı silmeniz de yeterli.</p>
+    </details>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <a href="index.html">Ana sayfa</a>
+    <a href="mailto:tinywonders.yt@gmail.com">İletişim</a>
+    <a href="privacy.html">Gizlilik politikası</a>
+    <p>© 2026 CglrStudio</p>
+  </div>
+</footer>
+</body>
+</html>
