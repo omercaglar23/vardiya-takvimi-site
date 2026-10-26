@@ -114,7 +114,7 @@ footer a { margin: 0 8px; }
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
         Teste katıl ve yükle
       </a>
-      <p class="wait"><b>Biraz bekleyin:</b> Teste katıldıktan sonra uygulamanın Google Play'de açılması <b>5–10 dakika</b> sürebilir. "Uygulama bulunamadı" ya da "Yükle" yerine başka bir şey görürseniz bir süre sonra <a href="https://play.google.com/store/apps/details?id=com.omercaglar.vardiyatakvimi" target="_blank" rel="noopener">buradan tekrar açın</a>.</p>
+      <p class="wait"><b>Biraz bekleyin:</b> Teste katıldıktan sonra uygulamanın Google Play'de açılması <b>5–10 dakika</b> sürebilir. "Uygulama bulunamadı" ya da "Yükle" yerine başka bir şey görürseniz bir süre sonra <a class="play-link" href="https://play.google.com/store/apps/details?id=com.omercaglar.vardiyatakvimi" target="_blank" rel="noopener">buradan tekrar açın</a>.</p>
     </li>
   </ol>
 
@@ -163,5 +163,14 @@ footer a { margin: 0 8px; }
     <p>© 2026 CglrStudio</p>
   </div>
 </footer>
+<script>
+// Android'de Play web sayfası test uygulamasını göstermez; Play Store uygulamasını doğrudan aç.
+if (/Android/i.test(navigator.userAgent)) {
+  document.querySelectorAll('a.play-link').forEach(function (a) {
+    a.href = 'market://details?id=com.omercaglar.vardiyatakvimi';
+    a.removeAttribute('target');
+  });
+}
+</script>
 </body>
 </html>
