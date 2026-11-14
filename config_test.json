@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "revision": 47,
+  "revision": 48,
   "dev": {
     "pin_hash": "f0e26e8b7e30fe595165fe257ed8ec46d9afce2ef71187db2ee565f9b427b320"
   },
@@ -124,7 +124,7 @@
     "contact_telegram": "VardiyaTakvimiDestekBot",
     "website": "https://omercaglar23.github.io/vardiya-takvimi-site/",
     "feedback": "",
-    "store_android": "",
+    "store_android": "https://play.google.com/store/apps/details?id=com.omercaglar.vardiyatakvimi",
     "store_ios": ""
   }
 }
