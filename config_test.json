@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "revision": 49,
+  "revision": 50,
   "dev": {
     "pin_hash": "f0e26e8b7e30fe595165fe257ed8ec46d9afce2ef71187db2ee565f9b427b320"
   },
@@ -61,7 +61,7 @@
     "ios": {}
   },
   "rating": {
-    "enabled": false,
+    "enabled": true,
     "triggers": [
       "weather_exit"
     ],
