@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "revision": 15,
+  "revision": 16,
   "dev": {
     "pin_hash": "f0e26e8b7e30fe595165fe257ed8ec46d9afce2ef71187db2ee565f9b427b320"
   },
@@ -38,7 +38,7 @@
       },
       "holidays": {
         "enabled": true,
-        "first": 4,
+        "first": 2,
         "every": 8,
         "max": 2
       },
@@ -65,10 +65,10 @@
     "triggers": [
       "weather_exit"
     ],
-    "min_days": 7,
-    "min_active_days": 5,
-    "min_screen_sec": 8,
-    "repeat_days": 120,
+    "min_days": 5,
+    "min_active_days": 4,
+    "min_screen_sec": 5,
+    "repeat_days": 90,
     "max_prompts": 3
   },
   "update": {
